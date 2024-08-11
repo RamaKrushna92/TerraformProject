@@ -4,6 +4,6 @@
  
  "two ec2 instances,
   SecurityGroups, 
-  awsVPC,
+  awsVPC, and
   subnets."
 
