@@ -12,19 +12,4 @@ resource "aws_instance" "dev" {
   tags = {
     Name = var.ec2_names[count.index]
   }
-
-  # Provisining scripts can be added here using user_data
-  user_data = <<-EOF
-    #!/bin/bash
-    sudo yum update -y
-    sudo yum install -y java
-    sudo yum install -y wget
-    sudo wget -O /etc/yum.repos.d/jenkins.repo \ 
-    sudo wget https://pkg.jenkins.io/redhat-stable/jenkins.repo
-    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-    sudo yum upgrade
-    sudo yum install jenkins
-    sudo systemctl daemon-reload
-  EOF
-
 }
