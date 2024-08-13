@@ -29,6 +29,7 @@
 *Project Pre Requisites:
 ------------------------
 
+* Before Going to start working on this project
     * Create S3 Bucket to store the statefile in remote.
     * Spin up aws ec2 instance, install Jenkins and Terraform.
     * Go to manage Jenkins, plugins and install AWS credentials to secure the ACCESS and Secret Keys.
