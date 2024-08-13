@@ -1,6 +1,6 @@
 # TerraformProject
 
-Intro:
+*Intro:
 --> Terraform is an Open source HashiCorp IaC tool, used to provision the resources on cloud infrastructure.
     Terraform can manage low-level components like compute, storage, and networking resources, as well as high-level components like DNS entries and SaaS features.
 
@@ -15,11 +15,11 @@ In this Project we are going to Create Below Servcies using terraform like:
     Security Group, 
     ec2 instances.
 
-As shown in the above
-	1. Written the terraform code using the editor vscode, Created the aws vpc and subnets.
-	2. Created the Security Group, including the ports 22 and 80 to allow SSH and HTTP
-	3. Pushes that code in to Github for Tracking the changes.
-	4. Configure the Jenkins Freestyle job and Tested the terraform code.
+*As shown in the above
+	* Written the terraform code using the editor vscode, Created the aws vpc and subnets.
+	* Created the Security Group, including the ports 22 and 80 to allow SSH and HTTP
+	* Pushes that code in to Github for Tracking the changes.
+	* Configure the Jenkins Freestyle job and Tested the terraform code.
 
 *Project Pre Requisites:
 -----------------------
