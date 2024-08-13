@@ -3,5 +3,7 @@ output "dev_instances" {
 }
 
 output "instance_public_ip" {
-  value = aws_instance.dev.*.ip
+  value = aws_instance.dev[*].public_ip
 }
+
+
