@@ -35,7 +35,7 @@
     * Go to manage Jenkins, plugins and install AWS credentials to secure the ACCESS and Secret Keys.
     * Configure the Git in Jenkins
     * Create Jenkins freestyle Job, clone the repo and Perform
-            - terraform init
-            - terraform validate
-            - terraform plan
-            - terraforn apply
+            * terraform init
+            * terraform validate
+            * terraform plan
+            * terraforn apply
