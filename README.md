@@ -11,7 +11,7 @@
 *Project Workflow:
 ------------------
 
-* In this Project we are going to Create Below Servcies using terraform like:
+* In this Project we are going to Create Below aws resources using terraform like:
     * VPC, 
     * Internet Gateway, 
     * Subnets, 
@@ -34,4 +34,8 @@
     * Spin up aws ec2 instance, install Jenkins and Terraform.
     * Go to manage Jenkins, plugins and install AWS credentials to secure the ACCESS and Secret Keys.
     * Configure the Git in Jenkins
-    * Create Jenkins freestyle Job, clone the repo.
+    * Create Jenkins freestyle Job, clone the repo and Perform
+            - terraform init
+            - terraform validate
+            - terraform plan
+            - terraforn apply
